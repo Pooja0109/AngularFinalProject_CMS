@@ -1,0 +1,39 @@
+.patCard
+{
+    padding-top:2% ;
+    /* border:2px solid red; */
+    width:70%;
+    margin: auto;
+    display:flex;
+    flex-direction:row;
+}
+.patCard1
+{
+    /* border:2px solid red; */
+    margin-top: 5%;
+    width:90%;
+    margin-left: 5%;
+}
+.part1
+{
+    /* border: 2px solid green; */
+    width: 50%;
+    text-align: center;
+}
+img{
+    width:300px;
+}
+.part2
+{
+    width: 50%;
+}
+table,h2
+{
+    text-align: center;
+}
+h2
+{
+    color:rgb(53, 65, 236);
+    text-decoration: underline;
+    text-decoration-color:rgb(53, 65, 236);
+}

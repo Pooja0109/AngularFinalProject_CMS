@@ -1,0 +1,27 @@
+<a routerLink="/details/{{patient.id}}">
+    <div class="placer">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>{{patient.firstname}}</mat-card-title>
+            <mat-card-subtitle>Age: {{patient.age}} 
+              <br>Conatct: {{patient.contact}}
+              <!-- <div class="contacts">
+              <br> <mat-icon style="font-size:inherit;" color="primary">contacts</mat-icon>
+              {{patient.contact}}
+            </div> -->
+            </mat-card-subtitle>
+            <img mat-card-sm-image src="http://localhost/{{patient.gender}}.png" >
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            Appointment Date:
+            {{patient.appoint |date}}
+        </mat-card-content>
+        <!-- <div class="DeleteIcon">
+          <button mat-icon-button color="primary"><mat-icon>edit</mat-icon></button>
+          <button mat-icon-button color="warn" ><mat-icon>delete</mat-icon></button>
+      </div> -->
+      </mat-card>
+    </div>
+    </a>

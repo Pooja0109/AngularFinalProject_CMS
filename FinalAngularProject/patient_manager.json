@@ -1,0 +1,355 @@
+{
+  "patients": [
+    {
+      "firstname": "Pooja",
+      "lastname": "P",
+      "email": "pooja@gmail.com",
+      "age": 23,
+      "gender": "Female",
+      "city": "Udupi",
+      "state": "Karnataka",
+      "pincode": 576103,
+      "contact": "9972992411",
+      "emg_contact": "9164133441",
+      "height": 153,
+      "weight": 65,
+      "blood_group": "O+",
+      "appoint": "2023-05-16T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "firstname": "Bruno",
+      "lastname": "Mars",
+      "email": "bruno@gmail.com",
+      "age": 10,
+      "gender": "Male",
+      "city": "Udupi",
+      "state": "Karnataka",
+      "pincode": 576103,
+      "contact": "1212121212",
+      "emg_contact": "5656565656",
+      "height": 70,
+      "weight": 35,
+      "blood_group": "B+",
+      "appoint": "2023-05-08T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "firstname": "Nidhi",
+      "lastname": "Shetty",
+      "email": "sonu@gmail.com",
+      "age": 22,
+      "gender": "Female",
+      "city": "Udupi",
+      "state": "karnataka",
+      "pincode": 576103,
+      "contact": "9999999199",
+      "emg_contact": "9164133441",
+      "height": 165,
+      "weight": 47,
+      "blood_group": "B+",
+      "appoint": "2023-06-26T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "firstname": "Kedar",
+      "lastname": "Shenoy",
+      "email": "kedar@gmail.com",
+      "age": 24,
+      "gender": "Male",
+      "city": "Udupi",
+      "state": "karnataka",
+      "pincode": 576103,
+      "contact": "9999999199",
+      "emg_contact": "9164133441",
+      "height": 169,
+      "weight": 60,
+      "blood_group": "A+",
+      "appoint": "2023-06-06T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "firstname": "Sonu",
+      "lastname": "P",
+      "email": "sonu@gmail.com",
+      "age": 4,
+      "gender": "female",
+      "city": "Udupi",
+      "state": "karnataka",
+      "pincode": 576103,
+      "contact": "9999999199",
+      "emg_contact": "9164133441",
+      "height": 69,
+      "weight": 24,
+      "blood_group": "A+",
+      "appoint": "2023-06-06T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "firstname": "Lakshmi",
+      "lastname": "P",
+      "email": "lakshmi@gmail.com",
+      "age": 50,
+      "gender": "Female",
+      "city": "Udupi",
+      "state": "karnataka",
+      "pincode": 576103,
+      "contact": "9999999199",
+      "emg_contact": "9164133441",
+      "height": 158,
+      "weight": 82,
+      "blood_group": "O+",
+      "appoint": "2023-06-26T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "firstname": "Nikhil",
+      "lastname": "Shetty",
+      "email": "nikhil@gmail.com",
+      "age": 27,
+      "gender": "Male",
+      "city": "Karkala",
+      "state": "Karnataka",
+      "pincode": 576103,
+      "contact": "8748895172",
+      "emg_contact": "9972992411",
+      "height": 193,
+      "weight": 85,
+      "blood_group": "B+",
+      "appoint": "2023-05-01T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "firstname": "Chandhana",
+      "lastname": "Chamarthy",
+      "email": "chandhana@gmail.com",
+      "age": 21,
+      "gender": "Female",
+      "city": "Ongole",
+      "state": "Andhra Pradesh",
+      "pincode": 523001,
+      "contact": "9290557303",
+      "emg_contact": "9972992411",
+      "height": 165,
+      "weight": 45,
+      "blood_group": "O+",
+      "appoint": "2023-06-01T18:30:00.000Z",
+      "id": 9
+    },
+    {
+      "firstname": "Sreeja",
+      "lastname": "Guntu",
+      "email": "guntu@gmail.com",
+      "age": 20,
+      "gender": "Female",
+      "city": "Hyderabad",
+      "state": "Telengana",
+      "pincode": 500090,
+      "contact": "9600003243",
+      "emg_contact": "9972992411",
+      "height": 160,
+      "weight": 25,
+      "blood_group": "AB+",
+      "appoint": "2023-05-29T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "firstname": "Neeraj",
+      "lastname": "Shetty",
+      "email": "neeru@gmail.com",
+      "age": 31,
+      "gender": "Male",
+      "city": "Karkala",
+      "state": "Karnataka",
+      "pincode": 576103,
+      "contact": "8494831231",
+      "emg_contact": "9972992411",
+      "height": 170,
+      "weight": 55,
+      "blood_group": "B+",
+      "appoint": "2023-05-11T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "firstname": "Sarthik",
+      "lastname": "Shetty",
+      "email": "sarthik@gmail.com",
+      "age": 23,
+      "gender": "Male",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": 600566,
+      "contact": "2323232323",
+      "emg_contact": "2323232323",
+      "height": 190,
+      "weight": 89,
+      "blood_group": "B+",
+      "appoint": "2023-05-18T18:30:00.000Z",
+      "id": 12
+    },
+    {
+      "firstname": "Prakash",
+      "lastname": "Nayak",
+      "email": "ppc@gmail.com",
+      "age": 53,
+      "gender": "Male",
+      "city": "Udupi",
+      "state": "Karnataka",
+      "pincode": 576103,
+      "contact": "7337443344",
+      "emg_contact": "9972992411",
+      "height": 169,
+      "weight": 87,
+      "blood_group": "O+",
+      "appoint": "2023-05-16T18:30:00.000Z",
+      "id": 13
+    }
+  ],
+  "prescription": [
+    {
+      "id_no": "1",
+      "pre_date": "2023-05-08T18:30:00.000Z",
+      "prescribe": "Paracetamol (X3 days)",
+      "id": 1
+    },
+    {
+      "id_no": "2",
+      "pre_date": "2023-05-10T18:30:00.000Z",
+      "prescribe": "Vicks action 500mg (X20 days)",
+      "id": 2
+    },
+    {
+      "id_no": "3",
+      "pre_date": "2023-05-03T18:30:00.000Z",
+      "prescribe": "Vicks action 500mg (X10 days)",
+      "id": 3
+    },
+    {
+      "id_no": "6",
+      "pre_date": "2023-05-04T18:30:00.000Z",
+      "prescribe": "Tablets name123 (X 23 days)",
+      "id": 4
+    },
+    {
+      "id_no": "4",
+      "pre_date": "2023-05-18T18:30:00.000Z",
+      "prescribe": "Benadryl 5ml (X20 days)",
+      "id": 5
+    },
+    {
+      "id_no": "1",
+      "pre_date": "2023-05-07T18:30:00.000Z",
+      "prescribe": "Cough Syrup 20ml (20days)",
+      "id": 6
+    }
+  ],
+  "diet": [
+    {
+      "name": "Ketogenic diet",
+      "food_list": [
+        "Breakfast :Milk,Eggs,Almonds",
+        "Lunch :Pules,Rice,Green Veggies,Curd",
+        "Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi"
+      ]
+    },
+    {
+      "name": "Diabetic diet",
+      "food_list": [
+        "Breakfast :Milk,Eggs,Almonds,Oat Meal",
+        "Lunch :Pules,Brown Rice,Green Veggies",
+        "Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi"
+      ]
+    },
+    {
+      "name": "DASH diet",
+      "food_list": [
+        "Breakfast :Whole grains,Vegetables,Fat free dairy",
+        "Lunch :Pules,Brown Rice,Green Veggies",
+        "Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi"
+      ]
+    },
+    {
+      "name": "Healthy diet",
+      "food_list": [
+        "Breakfast :Milk,Eggs,Almonds",
+        "Lunch :Pules,Rice,Green Veggies,Curd",
+        "Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi"
+      ]
+    },
+    {
+      "name": "Anti-inflammatory diet",
+      "food_list": [
+        "Breakfast :Milk,Eggs,Almonds,Oat Meal",
+        "Lunch :Pules,Brown Rice,Green Veggies",
+        "Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi"
+      ]
+    },
+    {
+      "name": "Gluten-free diet",
+      "food_list": [
+        "Breakfast :Whole grains,Vegetables,Fat free dairy",
+        "Lunch :Pules,Brown Rice,Green Veggies",
+        "Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi"
+      ]
+    }
+  ],
+  "diet_collect": [
+    {
+      "id_no": "2",
+      "diet_date": "2023-05-12T18:30:00.000Z",
+      "diet_given": "Healthy diet :: Breakfast :Milk,Eggs,Almonds,Lunch :Pules,Rice,Green Veggies,Curd,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 1
+    },
+    {
+      "id_no": "1",
+      "diet_date": "2023-05-05T18:30:00.000Z",
+      "diet_given": "Gluten-free diet :: Breakfast :Whole grains,Vegetables,Fat free dairy,Lunch :Pules,Brown Rice,Green Veggies,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 2
+    },
+    {
+      "id_no": "1",
+      "diet_date": "2023-05-08T18:30:00.000Z",
+      "diet_given": "DASH diet :: Breakfast :Whole grains,Vegetables,Fat free dairy,Lunch :Pules,Brown Rice,Green Veggies,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 3
+    },
+    {
+      "id_no": "6",
+      "diet_date": "2023-05-04T18:30:00.000Z",
+      "diet_given": "Diabetic diet :: Breakfast :Milk,Eggs,Almonds,Oat Meal,Lunch :Pules,Brown Rice,Green Veggies,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 4
+    },
+    {
+      "id_no": "4",
+      "diet_date": "2023-05-18T18:30:00.000Z",
+      "diet_given": "Healthy diet :: Breakfast :Milk,Eggs,Almonds,Lunch :Pules,Rice,Green Veggies,Curd,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 5
+    },
+    {
+      "id_no": "2",
+      "diet_date": "2023-05-12T18:30:00.000Z",
+      "diet_given": "Anti-inflammatory diet :: Breakfast :Milk,Eggs,Almonds,Oat Meal,Lunch :Pules,Brown Rice,Green Veggies,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "email": "nidhi@gmail.com",
+      "password": "$2a$10$Smc4hUiknvSouIdsG6i44ORTRQGiYWanl.K4dXFTiZ7Rva..t6Moq",
+      "username": "nidhi",
+      "type": "reception",
+      "id": 1
+    },
+    {
+      "email": "doctor@gmail.com",
+      "password": "$2a$10$TlO/Ug6mYTIbUKGCyvJhl.ZSL6Uxj/y/BvdJ.MycZBd.KhtesvKsy",
+      "type": "doctor",
+      "id": 2
+    },
+    {
+      "email": "reception@gmail.com",
+      "password": "$2a$10$DN2RwEwW1hXWcyG2aLWLrudKsRMALpiuX3/p4K37CfJuFAicXX7CC",
+      "type": "reception",
+      "id": 3
+    }
+  ]
+}

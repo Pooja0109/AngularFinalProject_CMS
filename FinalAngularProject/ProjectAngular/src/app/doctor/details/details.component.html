@@ -1,0 +1,58 @@
+<app-pat-titlebar></app-pat-titlebar>
+<mat-card class="patCard1">
+<div class="patCard">
+    <div class="part1">
+        <img src="http://localhost/{{patientLst.gender}}.png" alt="Patient Profile">
+        <br>
+        <h1>{{patientLst.firstname}} {{patientLst.lastname}}</h1>
+    </div>
+    <div class="part2">
+        <h2>Patient Profile</h2>
+        <table class="table">
+            <thead>
+              <tr>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>First name</td>
+                <td>{{patientLst.firstname}}</td>
+              </tr>
+              <tr>
+                <td>Last name</td>
+                <td>{{patientLst.lastname}}</td>
+              </tr>
+              <tr>
+                <td>E-mail</td>
+                <td>{{patientLst.email}}</td>
+              </tr>
+              <tr>
+                <td>Gender</td>
+                <td>{{patientLst.gender}}</td>
+              </tr>
+              <tr>
+                <td>Age</td>
+                <td>{{patientLst.age}}</td>
+              </tr>
+              <tr>
+                <td>Height</td>
+                <td>{{patientLst.height}}</td>
+              </tr>
+              <tr>
+                <td>Weight</td>
+                <td>{{patientLst.weight}}</td>
+              </tr>
+              <tr>
+                <td>Blood Group</td>
+                <td>{{patientLst.blood_group}}</td>
+              </tr>
+              <tr>
+                <td>latest Appointment</td>
+                <td>{{patientLst.appoint|date}}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+</mat-card>
+  <!-- <p>Details It is workingg {{patientLst.firstname}}</p> -->

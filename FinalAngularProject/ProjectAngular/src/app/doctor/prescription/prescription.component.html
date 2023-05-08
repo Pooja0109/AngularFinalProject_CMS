@@ -1,0 +1,37 @@
+<app-pat-titlebar></app-pat-titlebar>
+<h1 align="center" style="color:#3f51b5;font-weight:500;">Prescription for {{patientLst.firstname}} </h1>
+<div class="PreCards">
+<app-pres-history [prepid]="id_no">
+</app-pres-history>
+</div>
+<div class="Prescription">
+    <div class="alert alert-info" *ngIf="errors.length>0">
+        <ul >
+            <li *ngFor="let x of errors">{{x}}</li>
+        </ul>
+    </div>
+    <mat-card>
+        <mat-card-header>
+            <div class="main">
+            <div class="dates">
+            <mat-form-field appearance="outline" style="width:600px;margin-bottom:25px;">
+                <mat-label>Select date</mat-label>
+                <input matInput [matDatepicker]="picker" min="{{currentDate |date:'yyyy-MM-dd'}}" [(ngModel)]="Pdate">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+            </div>
+            <div class="textarea">
+            <mat-form-field appearance="outline" class="area">
+                <mat-label>Prescribe here</mat-label>
+                <textarea matInput [(ngModel)]="prescribe"></textarea>
+              </mat-form-field>
+            </div>
+        </div>
+        </mat-card-header>
+        <mat-card-actions>
+            <button mat-raised-button color="primary" class="btnPre" (click)="submit()">Prescribe</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

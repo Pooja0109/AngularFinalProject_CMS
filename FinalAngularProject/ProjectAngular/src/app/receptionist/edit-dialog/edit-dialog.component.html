@@ -1,0 +1,88 @@
+<div class="background">
+<mat-card>
+  <h1 align="center" style="margin-top: 2%;color:#3f51b5;">Update Record</h1>
+  <mat-card-content>
+<div class="roww">
+<mat-form-field appearance="outline">
+    <mat-label>First Name</mat-label>
+    <input matInput type="text" [(ngModel)]="firstname">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Last Name</mat-label>
+    <input matInput type="text" [(ngModel)]="lastname">
+  </mat-form-field>
+</div>
+<div class="roww">
+  <mat-form-field appearance="outline">
+    <mat-label>E-mail</mat-label>
+    <input matInput type="email" [(ngModel)]="email">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Age</mat-label>
+    <input matInput type="number" [(ngModel)]="age">
+  </mat-form-field>
+  </div>
+  <div class="roww">
+  <mat-form-field appearance="outline">
+    <mat-label>Contact</mat-label>
+      <input matInput type="number" [(ngModel)]="contact">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Emergency Contact</mat-label>
+        <input matInput type="number" [(ngModel)]="emg_contact">
+      </mat-form-field>
+      </div>
+      <div class="roww">
+        <mat-radio-group [(ngModel)]="gender">
+          <mat-label ><b>Gender</b></mat-label>
+          <mat-radio-button value="Male">Male</mat-radio-button>
+          <mat-radio-button value="Female">Female</mat-radio-button>
+          <mat-radio-button value="Others">Others</mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <div class="roww">
+  <mat-form-field appearance="outline">
+    <mat-label>City</mat-label>
+    <input matInput type="text" [(ngModel)]="city">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>State</mat-label>
+    <input matInput type="text" [(ngModel)]="state">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Pincode</mat-label>
+    <input matInput type="number" [(ngModel)]="pincode">
+  </mat-form-field>
+  </div>
+  <div class="roww">
+  <mat-form-field appearance="outline">
+    <mat-label>Height</mat-label>
+    <input matInput type="number" [(ngModel)]="height">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+  <mat-label>Weight</mat-label>
+    <input matInput type="number" [(ngModel)]="weight">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Blood Group</mat-label>
+      <input matInput type="text" [(ngModel)]="blood_group">
+    </mat-form-field>
+  </div>
+  <div class="roww">
+    <mat-form-field appearance="outline">
+      <mat-label>Choose A Appointment</mat-label>
+      <input matInput [matDatepicker]="picker3" min="{{currentDate |date:'yyyy-MM-dd'}}" [(ngModel)]="appoint">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matIconSuffix [for]="picker3"></mat-datepicker-toggle>
+      <mat-datepicker #picker3></mat-datepicker>
+    </mat-form-field>
+  </div>
+  <!-- <div class="roww"> -->
+    <mat-dialog-actions class="action">
+      <button mat-raised-button routerLink="/patientView" class="actions">Cancel</button>
+      <button mat-raised-button color="primary" class="actions" (click)="PutEdit()" routerLink="/patientView">Register</button>
+    </mat-dialog-actions>
+  <!-- </div> -->
+</mat-card-content>
+</mat-card>
+</div>

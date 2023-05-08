@@ -1,0 +1,33 @@
+<app-pat-titlebar></app-pat-titlebar>
+<h1 align="center">Diet Plan for {{patientLst.firstname}}</h1>
+<h1 align="center"> <mat-form-field appearance="fill">
+  <mat-label>Choose a diet</mat-label>
+  <mat-select [(ngModel)]="dietkey">
+    <mat-option *ngFor="let diet of diets" [value]="diet">
+      {{diet}}
+    </mat-option>
+  </mat-select>
+</mat-form-field></h1>
+<!-- <mat-list role="list" cdkDropList>
+    <mat-list-item role="listitem" cdkDrag>Keto diet</mat-list-item>
+    <mat-list-item role="listitem" cdkDrag>Intermideate fasting</mat-list-item>
+    <mat-list-item role="listitem" cdkDrag>Carbo deficeint diet</mat-list-item>
+  </mat-list> -->
+  <mat-card class="prepBox">
+    <div *ngFor="let x of DCLst">
+        <div *ngIf="id_no==x.id_no">
+            <div class="borders">
+           <span id="prep1">{{x.diet_date|date}}</span> <br>
+            <div id="prep">
+            {{x.diet_given}}
+            <br>
+            <!-- <mat-divider></mat-divider> -->
+            <hr>
+        </div>
+    </div>
+        </div>
+    </div>
+</mat-card>
+ 
+  <app-diet-child *ngFor="let x of dietLst |dietpipe :dietkey" [diets]="x"></app-diet-child>
+  

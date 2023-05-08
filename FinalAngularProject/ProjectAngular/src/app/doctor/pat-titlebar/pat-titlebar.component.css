@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.title
+{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    font-size: x-large;
+    padding: 10px;
+}
+ul{
+    margin-left: 50px;
+}
+li {
+    float: left;
+    padding-top: 20px;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+a {
+    color: whitesmoke;
+    size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+a:hover{
+    background-color: rgb(47, 47, 188);
+    border-radius: 12px;
+}

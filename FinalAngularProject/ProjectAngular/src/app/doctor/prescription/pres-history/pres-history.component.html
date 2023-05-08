@@ -1,0 +1,15 @@
+<mat-card class="prepBox">
+    <div *ngFor="let x of prepLst">
+        <div *ngIf="prepid==x.id_no">
+            <div class="borders">
+           <span id="prep1">{{x.pre_date|date}}</span> <br>
+            <div id="prep">
+            {{x.prescribe}}
+            <br>
+            <!-- <mat-divider></mat-divider> -->
+            <hr>
+        </div>
+    </div>
+        </div>
+    </div>
+</mat-card>

@@ -1,0 +1,25 @@
+<app-title-bar></app-title-bar>
+<div class="serachTab">
+<mat-form-field appearance="outline" class="search">
+    <input matInput [(ngModel)]="searchKey" placeholder="Search" >
+</mat-form-field>
+<mat-form-field appearance="outline">
+    <mat-label>Filter Appointment</mat-label>
+    <input matInput [matDatepicker]="picker3"  [(ngModel)]="dateUp">
+    <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+    <mat-datepicker-toggle matIconSuffix [for]="picker3"></mat-datepicker-toggle>
+    <mat-datepicker #picker3></mat-datepicker>
+  </mat-form-field>
+</div>
+<div class="PatView">
+<app-patient-cards *ngFor="let x of patientLst | searchPipe:searchKey | customeDatePipe:dateUp | paginate: 
+{ itemsPerPage: 6, currentPage: p }" [patient]="x"></app-patient-cards>
+</div>
+<pagination-controls (pageChange)="p = $event" class="clearfix">
+</pagination-controls>
+<!-- <app-edit-dialog [ppp]="patientLst" *ngIf="!isOn"></app-edit-dialog> -->
+
+
+<!-- <script>
+  console.log("Datessss:",dateUp)
+</script> -->

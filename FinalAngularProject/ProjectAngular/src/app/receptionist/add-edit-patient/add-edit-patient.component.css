@@ -1,0 +1,19 @@
+.roww
+{
+    gap:10px;
+    display: flex;
+    /* margin-bottom: 5px; */
+}
+mat-form-field
+{
+    width: 100%;
+}
+.action
+{
+ margin-left: 6%;
+}
+.actions
+{
+    width: 300px !important;
+    text-align: center;
+}

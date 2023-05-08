@@ -1,0 +1,19 @@
+.prepBox
+{
+    /* border:2px solid gold; */
+    padding: 1%;
+}
+#prep
+{
+    padding: 2%;
+    font-size:large;
+    font-weight: bold;
+    
+}
+#prep1
+{
+    color:#3f51b5;
+    font-weight: 700;
+    /* border:2px solid gold; */
+    margin-left: 1%;
+}
