@@ -1,4 +1,10 @@
 <app-pat-titlebar></app-pat-titlebar>
+<div class="BMIboxes">
+  <div appBMIboxes style="background-color: rgb(47, 196, 255);"></div>&ensp;Under-Weight
+  <div appBMIboxes style="background-color: greenyellow;"></div>&ensp;Healthy-Weight
+  <div appBMIboxes style="background-color: orange;"></div>&ensp;Over-Weight
+  <div appBMIboxes style="background-color: rgb(202, 47, 47);"></div>&ensp;obese
+</div>
 <mat-card class="patCard1">
 <div class="patCard">
     <div class="part1">
@@ -45,6 +51,13 @@
               <tr>
                 <td>Blood Group</td>
                 <td>{{patientLst.blood_group}}</td>
+              </tr>
+              <tr>
+                <td>BMI</td>
+                <td *ngIf="bmi<18.5" style="background-color: rgb(47, 196, 255);font-weight: bold;">{{bmi}}</td>
+                <td *ngIf="bmi>=18.5 && bmi<=24.9" style="background-color:greenyellow;font-weight: bold;">{{bmi}}</td>
+                <td *ngIf="bmi>25.5.0 && bmi<=29.9" style="background-color:orange;font-weight: bold;">{{bmi}}</td>
+                <td *ngIf="bmi>=30" style="background-color: rgb(202, 47, 47);font-weight: bold;color:whitesmoke">{{bmi}}</td>
               </tr>
               <tr>
                 <td>latest Appointment</td>

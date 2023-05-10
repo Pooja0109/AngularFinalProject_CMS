@@ -10,7 +10,7 @@
 .patCard1
 {
     /* border:2px solid red; */
-    margin-top: 5%;
+    margin-top: 3%;
     width:90%;
     margin-left: 5%;
 }
@@ -36,4 +36,13 @@ h2
     color:rgb(53, 65, 236);
     text-decoration: underline;
     text-decoration-color:rgb(53, 65, 236);
+}
+.BMIboxes
+{
+    display: flex;
+    padding-top: 2%;
+    margin-left: 1%;
+    justify-content:center;
+    font-weight:450;
+    /* border: 2px solid black; */
 }

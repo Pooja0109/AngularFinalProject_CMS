@@ -10,7 +10,9 @@ import { PatientService } from 'src/app/services/patient.service';
 export class DetailsComponent {
   id_no:any;
   patientLst:any;
-  
+  bmi:any;
+  height:any;
+  weight:any;
 
   constructor(private PS:PatientService,private ar:ActivatedRoute){
     this.ar.params.subscribe(
@@ -25,6 +27,11 @@ export class DetailsComponent {
     this.PS.getPatientLst(this.id_no).subscribe({
       next: (data:any)=> {this.patientLst =data
       // console.log("this is it ",this.patientLst)
+      this.height=parseInt(this.patientLst.height)/100;
+      console.log("Height is ",this.height);
+    this.weight=parseInt(this.patientLst.weight);
+    this.bmi=this.weight/Math.pow(this.height,2);
+    this.bmi=this.bmi.toFixed(2);
       },
       error: ()=> this.patientLst = {}
     });

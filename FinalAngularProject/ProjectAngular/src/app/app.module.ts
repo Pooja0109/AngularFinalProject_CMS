@@ -14,6 +14,7 @@ import { DoctorModule } from './doctor/doctor.module';
 import { TempComponentComponent } from './temp-component/temp-component.component';
 import { LoginComponent } from './login/login.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+// import { BMIboxesDirective } from './bmiboxes.directive';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     AppComponent,
     LazyLoadComponent,
     TempComponentComponent,
-    LoginComponent
+    LoginComponent,
+    // BMIboxesDirective
   ],
   imports: [
     BrowserModule,

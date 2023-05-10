@@ -16,6 +16,7 @@ import { DoctordatefilterPipe } from '../doctordatefilter.pipe';
 import { DietChildComponent } from './diet/diet-child/diet-child.component';
 import { DietpipePipe } from '../dietpipe.pipe';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { BMIboxesDirective } from '../bmiboxes.directive';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     PresHistoryComponent,
     DoctordatefilterPipe,
     DietChildComponent,
-    DietpipePipe
+    DietpipePipe,
+    BMIboxesDirective
   ],
   imports: [
     CommonModule,
