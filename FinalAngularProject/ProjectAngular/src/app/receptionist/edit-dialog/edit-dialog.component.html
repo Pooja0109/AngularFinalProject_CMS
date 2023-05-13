@@ -70,6 +70,10 @@
   </div>
   <div class="roww">
     <mat-form-field appearance="outline">
+      <mat-label>Health Issues</mat-label>
+        <input matInput type="text" [(ngModel)]="issue_group">
+      </mat-form-field>
+    <mat-form-field appearance="outline">
       <mat-label>Choose A Appointment</mat-label>
       <input matInput [matDatepicker]="picker3" min="{{currentDate |date:'yyyy-MM-dd'}}" [(ngModel)]="appoint">
       <mat-hint>MM/DD/YYYY</mat-hint>

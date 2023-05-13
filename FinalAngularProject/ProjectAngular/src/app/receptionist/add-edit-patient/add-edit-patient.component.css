@@ -2,6 +2,7 @@
 {
     gap:10px;
     display: flex;
+    /* margin-top: 1%; */
     /* margin-bottom: 5px; */
 }
 mat-form-field

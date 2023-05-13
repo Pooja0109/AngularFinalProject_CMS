@@ -45,6 +45,22 @@ export class PatientService {
     return this.http.get("http://localhost:3000/patients/"+id)
   }
 
+  getAppointId(id:number):Observable<any>
+  {
+    return this.http.get("http://localhost:3000/appointments/"+id)
+  }
+  getAppoint():Observable<any>
+  {
+    return this.http.get("http://localhost:3000/appointments")
+  }
+
+  postAppoint(obj:any):Observable<any>{
+    this.httpOptions =  new HttpHeaders({
+      'Content-Type':  'application/json',
+    })
+  return this.http.post("http://localhost:3000/appointments/",obj,this.httpOptions);
+ }
+
   //DELETION
   getPatDetails(id: number): Observable<any> {
     return this.http.get("http://localhost:3000/patients/"+id)

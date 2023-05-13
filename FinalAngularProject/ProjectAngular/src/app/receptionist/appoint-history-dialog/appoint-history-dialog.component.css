@@ -1,0 +1,38 @@
+mat-card
+{
+    width:70%;
+}
+.babies
+{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.baby
+{
+    margin:0px 21%;
+}
+table{
+    text-align: center;
+}
+.mainWall
+{
+    width:600px;
+    text-align: center;
+}
+h1{
+    color:#3f51b5;
+    font-weight: 700;
+}
+mat-dialog-actions
+{
+    margin-left: 20% !important;
+}
+button
+{
+    width: 180px !important;
+    color: white !important;
+    background-color: #3f51b5 !important;
+    margin-top: 5% !important;
+    margin-left: 36% !important;
+}

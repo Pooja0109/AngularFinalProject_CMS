@@ -14,11 +14,11 @@ export class AddEditPatientComponent {
   minDate=new Date();
   maxDate=new Date(2024,11,30);
   patientForm: any;
-  
+  userID:any;
   bld_group: string[] = [
     "A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"
   ]
-
+  issue_group:string[]=["Allergies","Headaches","Stomach Aches","Influenza (flu)","Conjunctivitis","Pneumonia","Common cold","Ear Pain","Others"]
   currentDate :any=new Date();
   
   constructor(private _fb: FormBuilder, private PS: PatientService, private _dialogRef: MatDialogRef <AddEditPatientComponent>) {
@@ -38,13 +38,17 @@ export class AddEditPatientComponent {
         height: ['', [Validators.required]],   //,Validators.pattern("^([0-9]+|[1-9])|\.[0-9]?$")]
         weight: ['', [Validators.required]],  //,Validators.pattern("^([0-9]+|[1-9])|\.[0-9]?$")]
         blood_group: ['', [Validators.required]],
+        issue_group: ['', [Validators.required]],
         appoint: ['', [Validators.required]]
       }
     )
+      this.userID=Math.round(Math.random() * 100000);
+      console.log("User id in ADD 1: ",this.userID);
   }
 
 
   OnFormRegister() {
+    console.log("User id in ADD 2:",this.userID);
     var temp:any={
       firstname: this.patientForm.value.firstname,
       lastname: this.patientForm.value.lastname,
@@ -59,7 +63,15 @@ export class AddEditPatientComponent {
       height:this.patientForm.value.height,
       weight:this.patientForm.value.weight,
       blood_group:this.patientForm.value.blood_group,
+      issue_group:this.patientForm.value.issue_group,
       appoint:this.patientForm.value.appoint,
+      id_user:this.userID,
+      
+    }
+    console.log("User id in ADD 3:",this.userID);
+    var temp2:any={
+      id_user:this.userID,
+      dates:this.patientForm.value.appoint
     }
 
     if (this.patientForm.valid) {
@@ -74,6 +86,13 @@ export class AddEditPatientComponent {
         }
       })
     }
+
+    this.PS.postAppoint(temp2).subscribe({
+      next:(data:any)=>{},
+      error:(err) => {
+        alert(err);
+      }
+    })
   }
 
 }

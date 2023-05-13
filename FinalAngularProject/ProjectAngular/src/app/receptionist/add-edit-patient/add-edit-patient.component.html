@@ -81,7 +81,13 @@
       </mat-select>
     </mat-form-field>
 </div>
-<div class="roww">
+<div class="roww" style=" padding-top:3%;">
+  <mat-form-field appearance="outline">
+    <mat-label>Health Issue</mat-label>
+    <mat-select formControlName="issue_group">
+      <mat-option *ngFor="let value1 of issue_group" [value]="value1">{{value1}}</mat-option>
+    </mat-select>
+  </mat-form-field>
 <mat-form-field appearance="outline">
   <mat-label>Choose A Appointment</mat-label>
   <input matInput [matDatepicker]="picker2" min="{{currentDate |date:'yyyy-MM-dd'}}" formControlName="appoint">

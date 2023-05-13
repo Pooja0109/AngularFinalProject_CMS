@@ -15,6 +15,7 @@ import { SearchPipePipe } from './search-pipe.pipe';
 import { EditDialogComponent } from './edit-dialog/edit-dialog.component';
 import { CustomeDatePipePipe } from '../custome-date-pipe.pipe';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { AppointHistoryDialogComponent } from './appoint-history-dialog/appoint-history-dialog.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     PatientDialogComponent,
     SearchPipePipe,
     EditDialogComponent,
-    CustomeDatePipePipe 
+    CustomeDatePipePipe,
+    AppointHistoryDialogComponent 
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,25 @@
+<div class="mainWall">
+<div mat-dialog-title>
+    <h1 align="center">Appoinment History : {{data.firstname}}</h1>
+</div>
+<div mat-dialog-content>
+    <div class="babies">
+    <span class="baby">Dates</span><span class="baby">Issues</span>
+    </div>
+    <div class="loopy" *ngFor="let x of appointlist">
+        <div class="cards" *ngIf="x.id_user==data.id_user">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>{{x.dates|date}}</td>
+                        <td>{{x.issue_group}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div mat-dialog-actions>
+        <button mat-raised-button [mat-dialog-close]>Cancel</button>
+        <!-- <button mat-button>Ok</button> -->
+    </div>
+</div>

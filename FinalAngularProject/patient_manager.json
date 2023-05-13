@@ -12,9 +12,11 @@
       "contact": "9972992411",
       "emg_contact": "9164133441",
       "height": 153,
-      "weight": 65,
+      "weight": 83,
       "blood_group": "O+",
-      "appoint": "2023-05-16T18:30:00.000Z",
+      "appoint": "2023-06-14T18:30:00.000Z",
+      "issue_group": "Headaches",
+      "id_user": 49661,
       "id": 1
     },
     {
@@ -32,6 +34,8 @@
       "weight": 35,
       "blood_group": "B+",
       "appoint": "2023-05-08T18:30:00.000Z",
+      "issue_group": "Ear Pain",
+      "id_user": 69101,
       "id": 2
     },
     {
@@ -45,10 +49,12 @@
       "pincode": 576103,
       "contact": "9999999199",
       "emg_contact": "9164133441",
-      "height": 165,
+      "height": 164,
       "weight": 47,
       "blood_group": "B+",
       "appoint": "2023-06-26T18:30:00.000Z",
+      "issue_group": "Others",
+      "id_user": 69102,
       "id": 4
     },
     {
@@ -65,7 +71,9 @@
       "height": 169,
       "weight": 60,
       "blood_group": "A+",
-      "appoint": "2023-06-06T18:30:00.000Z",
+      "appoint": "2023-07-27T18:30:00.000Z",
+      "issue_group": "Headaches",
+      "id_user": 69103,
       "id": 5
     },
     {
@@ -83,6 +91,8 @@
       "weight": 24,
       "blood_group": "A+",
       "appoint": "2023-06-06T18:30:00.000Z",
+      "issue_group": "Ear Pain",
+      "id_user": 69104,
       "id": 6
     },
     {
@@ -100,6 +110,8 @@
       "weight": 82,
       "blood_group": "O+",
       "appoint": "2023-06-26T18:30:00.000Z",
+      "issue_group": "Headaches",
+      "id_user": 69105,
       "id": 7
     },
     {
@@ -117,6 +129,8 @@
       "weight": 85,
       "blood_group": "B+",
       "appoint": "2023-05-01T18:30:00.000Z",
+      "issue_group": "Common cold",
+      "id_user": 69106,
       "id": 8
     },
     {
@@ -131,9 +145,11 @@
       "contact": "9290557303",
       "emg_contact": "9972992411",
       "height": 165,
-      "weight": 45,
+      "weight": 46,
       "blood_group": "O+",
       "appoint": "2023-06-01T18:30:00.000Z",
+      "issue_group": "Pneumonia",
+      "id_user": 69107,
       "id": 9
     },
     {
@@ -148,9 +164,11 @@
       "contact": "9600003243",
       "emg_contact": "9972992411",
       "height": 160,
-      "weight": 25,
+      "weight": 58,
       "blood_group": "AB+",
       "appoint": "2023-05-29T18:30:00.000Z",
+      "issue_group": "Conjunctivitis",
+      "id_user": 69108,
       "id": 10
     },
     {
@@ -168,6 +186,8 @@
       "weight": 55,
       "blood_group": "B+",
       "appoint": "2023-05-11T18:30:00.000Z",
+      "issue_group": "Stomach Aches",
+      "id_user": 69109,
       "id": 11
     },
     {
@@ -185,6 +205,8 @@
       "weight": 89,
       "blood_group": "B+",
       "appoint": "2023-05-18T18:30:00.000Z",
+      "issue_group": "Headaches",
+      "id_user": 63943,
       "id": 12
     },
     {
@@ -202,7 +224,28 @@
       "weight": 87,
       "blood_group": "O+",
       "appoint": "2023-05-16T18:30:00.000Z",
+      "issue_group": "Allergies",
+      "id_user": 69110,
       "id": 13
+    },
+    {
+      "firstname": "Soba",
+      "lastname": "soma",
+      "email": "soma@gmail.com",
+      "age": 24,
+      "gender": "Female",
+      "city": "Chenni",
+      "state": "TN",
+      "pincode": 456789,
+      "contact": "1234567891",
+      "emg_contact": "0987654112",
+      "height": 172,
+      "weight": 52,
+      "blood_group": "O+",
+      "appoint": "2023-07-14T18:30:00.000Z",
+      "issue_group": "",
+      "id_user": 50583,
+      "id": 14
     }
   ],
   "prescription": [
@@ -241,6 +284,12 @@
       "pre_date": "2023-05-07T18:30:00.000Z",
       "prescribe": "Cough Syrup 20ml (20days)",
       "id": 6
+    },
+    {
+      "id_no": "1",
+      "pre_date": "2023-05-22T18:30:00.000Z",
+      "prescribe": "Omni 5mg tablets (10 days)",
+      "id": 7
     }
   ],
   "diet": [
@@ -329,6 +378,18 @@
       "diet_date": "2023-05-12T18:30:00.000Z",
       "diet_given": "Anti-inflammatory diet :: Breakfast :Milk,Eggs,Almonds,Oat Meal,Lunch :Pules,Brown Rice,Green Veggies,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
       "id": 6
+    },
+    {
+      "id_no": "1",
+      "diet_date": "2023-05-09T18:30:00.000Z",
+      "diet_given": "DASH diet :: Breakfast :Whole grains,Vegetables,Fat free dairy,Lunch :Pules,Brown Rice,Green Veggies,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 7
+    },
+    {
+      "id_no": "7",
+      "diet_date": "2023-05-22T18:30:00.000Z",
+      "diet_given": "Diabetic diet :: Breakfast :Milk,Eggs,Almonds,Oat Meal,Lunch :Pules,Brown Rice,Green Veggies,Dinner :Panner,Soya Chunks,Green Veggies,Wheat Chappathi",
+      "id": 8
     }
   ],
   "users": [
@@ -350,6 +411,104 @@
       "password": "$2a$10$DN2RwEwW1hXWcyG2aLWLrudKsRMALpiuX3/p4K37CfJuFAicXX7CC",
       "type": "reception",
       "id": 3
+    }
+  ],
+  "appointments": [
+    {
+      "id_user": 49661,
+      "issue_group": "Influenza (flu)",
+      "dates": "2023-05-24T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "id_user": 69101,
+      "issue_group": "Ear Pain",
+      "dates": "2023-05-08T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "id_user": 69102,
+      "issue_group": "Others",
+      "dates": "2023-06-26T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "id_user": 69104,
+      "issue_group": "Ear Pain",
+      "dates": "2023-06-06T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "id_user": 69105,
+      "issue_group": "Headaches",
+      "dates": "2023-06-26T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "id_user": 69106,
+      "issue_group": "Common cold",
+      "dates": "2023-05-01T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "id_user": 69109,
+      "issue_group": "Stomach Aches",
+      "dates": "2023-05-11T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "id_user": 69107,
+      "issue_group": "Pneumonia",
+      "dates": "2023-06-01T18:30:00.000Z",
+      "id": 9
+    },
+    {
+      "id_user": 63943,
+      "issue_group": "Headaches",
+      "dates": "2023-05-18T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "id_user": 69110,
+      "issue_group": "Allergies",
+      "dates": "2023-05-16T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "id_user": 69108,
+      "issue_group": "Conjunctivitis",
+      "dates": "2023-05-29T18:30:00.000Z",
+      "id": 12
+    },
+    {
+      "id_user": 49661,
+      "issue_group": "Headaches",
+      "dates": "2023-06-14T18:30:00.000Z",
+      "id": 13
+    },
+    {
+      "id_user": 69103,
+      "issue_group": "Common cold",
+      "dates": "2023-06-20T18:30:00.000Z",
+      "id": 14
+    },
+    {
+      "id_user": 69103,
+      "issue_group": "Pneumonia",
+      "dates": "2023-07-13T18:30:00.000Z",
+      "id": 15
+    },
+    {
+      "id_user": 69103,
+      "issue_group": "Headaches",
+      "dates": "2023-07-27T18:30:00.000Z",
+      "id": 16
+    },
+    {
+      "id_user": 69101,
+      "issue_group": "Ear Pain",
+      "dates": "2023-05-08T18:30:00.000Z",
+      "id": 17
     }
   ]
 }

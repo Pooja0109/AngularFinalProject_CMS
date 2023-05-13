@@ -57,7 +57,7 @@ export class PrescriptionComponent {
     if (this.Pdate == undefined || this.Pdate.length < 3)
       this.errors.push("Date must be selected")
 
-    if (this.prescribe == undefined)
+    if (this.prescribe == undefined || this.prescribe.length < 3)
       this.errors.push("Prescription should be filled")
 
 
